@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <radialGradient id="cosmosPetal" cx="50%" cy="78%" r="75%">
+      <stop offset="0" stop-color="#ffe3ee"/>
+      <stop offset="0.55" stop-color="#f8bcd2"/>
+      <stop offset="1" stop-color="#e98aab"/>
+    </radialGradient>
+    <radialGradient id="cosmosHeart" cx="38%" cy="34%" r="72%">
+      <stop offset="0" stop-color="#f7d98a"/>
+      <stop offset="1" stop-color="#d8a63f"/>
+    </radialGradient>
+  </defs>
+  <g fill="url(#cosmosPetal)">
+    <ellipse cx="60" cy="27" rx="12.5" ry="27"/>
+    <ellipse cx="60" cy="27" rx="12.5" ry="27" transform="rotate(45 60 60)"/>
+    <ellipse cx="60" cy="27" rx="12.5" ry="27" transform="rotate(90 60 60)"/>
+    <ellipse cx="60" cy="27" rx="12.5" ry="27" transform="rotate(135 60 60)"/>
+    <ellipse cx="60" cy="27" rx="12.5" ry="27" transform="rotate(180 60 60)"/>
+    <ellipse cx="60" cy="27" rx="12.5" ry="27" transform="rotate(225 60 60)"/>
+    <ellipse cx="60" cy="27" rx="12.5" ry="27" transform="rotate(270 60 60)"/>
+    <ellipse cx="60" cy="27" rx="12.5" ry="27" transform="rotate(315 60 60)"/>
+  </g>
+  <circle cx="60" cy="60" r="11.5" fill="url(#cosmosHeart)"/>
+  <g fill="#b8862f" opacity="0.85">
+    <circle cx="56" cy="57" r="1.6"/><circle cx="63" cy="56" r="1.3"/>
+    <circle cx="59" cy="62" r="1.4"/><circle cx="64" cy="63" r="1.1"/>
+    <circle cx="54" cy="63" r="1.1"/>
+  </g>
+</svg>
